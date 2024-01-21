@@ -8,7 +8,7 @@ function fetchUserDetails(username) {
 
     $.get(userDetailsUrl, function (user) {
         displayUserDetails(user);
-        currentUsername = username; // Store the current username
+        currentUsername = username;
         fetchRepositories();
     });
 }
