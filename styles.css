@@ -24,7 +24,7 @@ h1 {
 }
 
 .repository-item {
-    width: 48%; /* Set the width to accommodate two items with a small gap in between */
+    width: 48%;
     margin-bottom: 20px;
     padding: 10px;
     border: 1px solid #ddd;
